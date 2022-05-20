@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="graph">
+    <div class="graph-header">
+      <div class="graph-header__balance">
+        <span>My balance</span>
+        <div>$921.48</div>
+      </div>
+      <img src="images/logo.svg" alt="logo" class="graph-header__logo">
+    </div>
+    <div class="graph-body">
+      <div class="graph-title">
+        Spending - Last 7 days
+      </div>
+      <div class="graph-canvas">
+        <div class="graph-bar">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">mon</div>
+        </div>
+        <div class="graph-bar">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">tue</div>
+        </div>
+        <div class="graph-bar current">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">wed</div>
+        </div>
+        <div class="graph-bar active">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">thu</div>
+        </div>
+        <div class="graph-bar">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">fri</div>
+        </div>
+        <div class="graph-bar">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">sat</div>
+        </div>
+        <div class="graph-bar">
+          <div class="graph-bar__bar"></div>
+          <div class="graph-bar__day">sun</div>
+        </div>
+      </div>
+      <div class="graph-footer">
+        <div class="graph-total">
+          <span>Total this month</span>
+          <div>$478.33</div>
+        </div>
+        <div class="graph-comp">
+          <span>+2.4%</span>
+          <div>from last month</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ashwinder S. Arora</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
